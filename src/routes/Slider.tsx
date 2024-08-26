@@ -17,7 +17,7 @@ function Slider() {
     });
   }, [])
 
-  return  files.length ? <MediaGrid files={files} columns={1} rows={1}/> : <div>Loading....</div>
+  return  files.length ? <MediaGrid files={files} columns={4} rows={3}/> : <div>Loading....</div>
 
 }
 
